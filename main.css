@@ -162,7 +162,9 @@ nav {
 }
 
 .comingsoon {
-    margin-top:15%;
+    height:60%;
+    margin-top:10%;
+    margin-bottom:10%; 
     border-style: none;
  
 }
@@ -185,4 +187,15 @@ nav {
 
 .navbar-light {
 /*    background:#284D9A !important;*/
+}
+
+.navbar-expand-lg {
+}
+
+footer {
+/*    padding-top: 60px;*/
+}
+
+.footer {
+/*    padding-top: 60px;*/
 }
