@@ -83,9 +83,7 @@ div {
 
 }
 
-.navbar-expand-lg {
-    
-}
+
 
 .shift {
     padding-left: 1%;
@@ -101,9 +99,12 @@ div {
     background:#C4DBFD !important 
 }
 
+
+
 nav {
     box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
 }
+
 
 .col-9 {
     align-content: center;
@@ -123,11 +124,10 @@ nav {
 }
 
 .sector {
-    margin-left:10%;
-    margin-right:10%;
     margin-top:5%;
     padding-bottom: 3%;
 }
+
 
 .bg-dark {
     
@@ -154,7 +154,7 @@ nav {
 }
 
 .card-title {
-    
+    text-align: center;
 }
 
 .text-center {
@@ -169,4 +169,20 @@ nav {
 
 .mb-3 {
     
+}
+
+/*
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
+*/
+
+
+
+#navbarNav a {
+/*    color: white;*/
+}
+
+.navbar-light {
+/*    background:#284D9A !important;*/
 }
