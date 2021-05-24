@@ -22,6 +22,7 @@ body, html {
   position: relative;
 }
 
+
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
@@ -43,7 +44,7 @@ body, html {
     
 }
 .fullpage {
-    height:100%
+    height:auto;
 }
 
 .content {
@@ -154,7 +155,7 @@ nav {
     margin-top:2%;
     margin-left: 8%;
     margin-right: 8%;
-    font-size: 1.8rem
+    font-size: 1.2rem
 }
 
 .logo {
@@ -202,7 +203,12 @@ nav {
 }
 
 footer {
-/*    padding-top: 60px;*/
+/*    position:absolute;*/
+    bottom:0;
+    width:100%;
+    align-self: flex-end
+/*   height:60px;    Height of the footer */
+/*   background:#6cf;*/
 }
 
 .footer {
@@ -211,4 +217,12 @@ footer {
 
 .title {
     margin-top: 20%
+}
+
+.about {
+    color: black;
+}
+
+.profile {
+    padding-bottom: 8%;
 }
