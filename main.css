@@ -226,3 +226,27 @@ footer {
 .profile {
     padding-bottom: 8%;
 }
+
+.is-rounded:hover {
+/*    opacity: 20%*/
+}
+
+.is-rounded {
+    transition: 0.3s
+}
+
+.typeform-share {
+    
+}
+
+.typeform-share {
+    
+}
+
+.hover {
+    transition: 0.3s;
+}
+
+.hover:hover {
+    opacity: 40%
+}
