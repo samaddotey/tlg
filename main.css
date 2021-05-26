@@ -251,3 +251,16 @@ footer {
 .hover:hover {
     opacity: 40%
 }
+
+.sign-in {
+/*    margin-left: auto*/
+}
+
+.navbar-collapse {
+    
+}
+
+.navbar {
+    padding-left: 3%;
+    padding-right: 3%
+}
