@@ -224,7 +224,8 @@ footer {
 }
 
 .profile {
-    padding-bottom: 8%;
+    padding-bottom: 4%;
+    padding-top: 4%
 }
 
 .is-rounded:hover {
