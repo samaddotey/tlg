@@ -5,6 +5,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
         <title>Home</title>
         <link rel="icon" href="Assets/brain.png">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="main.css">
     </head>
@@ -48,6 +49,17 @@
 
  
             <div class=headerimg>
+<!--                <div class="jsdiv">-->
+            
+<!--                <div id="typed-strings">-->
+<!--                        <p>Hi</p>-->
+<!--                        <p>Welcome to <span class="stronger">Talent Lab Ghana</span></p>-->
+<!--                        <p>😊</p>-->
+<!--                </div>-->
+<!--                    <span id="typed"></span>-->
+            
+            
+<!--            </div>-->
                 <img class="headerimg" src="Assets/headerpic.jpg">
 
             </div>
@@ -132,4 +144,12 @@
             
         }}
 </script>
+    <script>
+        var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+         typeSpeed: 60,
+          backSpeed: 30,
+          backDelay: 1400,
+          loop: false});
+    </script>
 </html>

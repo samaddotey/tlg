@@ -264,3 +264,18 @@ footer {
     padding-left: 3%;
     padding-right: 3%
 }
+
+.no-link {
+    cursor: default;
+}
+.jsdiv {
+    position:fixed;
+    top: 20%;
+    right:45%;
+    width: 50%;
+    height: 100px;
+    background-color: transparent;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: 2em;
+}
